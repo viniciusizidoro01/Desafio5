@@ -1,0 +1,37 @@
+.rodape { 
+    background-color: #F6511D;
+    font-family: 'Roboto';
+    margin-top: 50px;
+    display: flex;
+    color: #FFFCFC;
+    justify-content: center;
+    }
+    
+    .imagemRodape{
+        width: 177px;
+        height: 62px;
+        padding-top: 51px;
+        margin-right:45px;
+    }
+
+    .linhaFundo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-left: 40px;
+    }
+    
+    .rodapeFundo {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.09px;
+        color:#FFFCFC;
+        display: flex;
+        align-items: center;
+    }
+    
+    .linhaRodape {
+        border: 1px solid #FFFFFF;
+        height: 200px;
+        margin-top: 25px;
+    }

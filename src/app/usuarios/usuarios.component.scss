@@ -1,0 +1,85 @@
+main{
+  font-family: 'Roboto';
+  margin: auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+p{
+  font-size: 24px;
+  margin-top: 15px;
+  line-height: 29.13px;
+  color: black;
+}
+
+form{
+  gap: 37px;
+}
+
+.example-form {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cadastrar {
+    width: 180px;
+    height: 58px;
+    border-radius: 0%;
+    font-size: 20px;
+    background-color: #F6511D;
+  }
+
+  table {
+    margin-top: 81px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  td{
+    font-size: 20px #4B2142;
+  }
+
+  .botaoEditar{
+    width: 125px;
+    height: 35px;
+    background-color: #F6511D;
+    color:white;
+    border: #F6511D 2px solid;
+    border-radius: 20px;
+  }
+
+  .botaoExcluir{
+    width: 125px;
+    height: 35px;
+    background-color: #41B8D2;
+    color:black;
+    border:  #41B8D2 2px solid;
+    border-radius: 20px;
+  }
+
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px !important; 
+}
+
+.input{
+  width: 320px;
+}
+
+td {
+  text-align: left;
+  width: 250px;
+}
+
+tr{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.mat-elevation-z8 {
+  box-shadow: 0px 0px 0px;
+}

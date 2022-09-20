@@ -1,0 +1,121 @@
+main{
+  width: 100%;
+  font-family: 'Roboto';
+}
+
+.principal{
+  margin-top:21px;
+  text-align: center;
+  font-size: 24px black;
+}
+
+p{
+  font-size:28px;
+}
+.imagem{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 32px;
+}
+
+.flex {
+  display: flex;
+  justify-content:space-around;
+}
+
+.texto1{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  width: 44.5%;
+}
+
+section {
+  margin-top: 5px;
+  gap: 100px;
+}
+
+div{
+  align-items: center;
+  justify-content: center;
+}
+.cadastrar {
+  width: 180px;
+  height: 58px;
+  border-radius: 0%;
+  font-size: 20px;
+  background-color: #F6511D;
+}
+tr.mat-row[_ngcontent-ccc-c123], tr.mat-footer-row[_ngcontent-ccc-c123] {
+  height: 48px;
+  width: 1082px;}
+
+  th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+      padding: 0;
+      border-bottom-width: 1px;
+      border-bottom-style: solid;
+  }
+
+.table {
+  margin-top: 81px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+tr.mat-row, tr.mat-footer-row {
+  height: 48px;
+  width: 1080px;
+  display: flex;
+}
+
+.mat-elevation-z8 {
+  box-shadow: 0px 0px 0px;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  align-self: left;
+  text-align: left;
+  justify-content: flex-end;
+}
+
+tr{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.botaoEditar{
+  width: 125px;
+  height: 35px;
+  background-color: #F6511D;
+  color:white;
+  border: #F6511D 2px solid;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.mat-cell, .mat-footer-cell {
+  font-size: 20px;
+}
+
+.botaoExcluir{
+  width: 125px;
+  height: 35px;
+  background-color: #41B8D2;
+  color:black;
+  border:  #41B8D2 2px solid;
+  border-radius: 20px;
+}
+
+
+// ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+//   background-color: white;
+//   border: 1px solid black;
+//   border-radius: 0px !important; 
+// }
+

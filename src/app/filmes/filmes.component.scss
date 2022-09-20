@@ -1,0 +1,122 @@
+main{
+    font-family: 'Roboto';
+    max-width: 1024px;
+}
+
+.principal{
+    margin-top:21px;
+    text-align: center;
+    font-size: 24px black;
+}
+.titulo {
+    font-size: 24px;
+}
+.imagem{
+    width: 100px;
+    height: 100px;
+}
+
+.texto1{
+    font-size: 20px;
+}
+div{
+    align-items: center;
+}
+
+.cadastrar {
+    width: 180px;
+    height: 58px;
+    border-radius: 0%;
+    font-size: 20px;
+    background-color: #F6511D;
+}
+tr.mat-row[_ngcontent-ccc-c123], tr.mat-footer-row[_ngcontent-ccc-c123] {
+    height: 48px;}
+
+    th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+        padding: 0;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+    }
+
+table {
+    width: 100%;
+    margin-top: 81px;
+    display: flex;
+    justify-content: center;
+}
+tr.mat-row, tr.mat-footer-row {
+    height: 48px;
+    display: flex;
+}
+
+.mat-elevation-z8 {
+    box-shadow: 0px 0px 0px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    align-self: left;
+    text-align: left;
+    justify-content: flex-end;
+    width: 270px;
+}
+
+tr{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.botaoEditar{
+    width: 125px;
+    height: 35px;
+    background-color: #F6511D;
+    color:white;
+    border: #F6511D 2px solid;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.botaoExcluir{
+    width: 125px;
+    height: 35px;
+    background-color: #41B8D2;
+    color:black;
+    border:  #41B8D2 2px solid;
+    border-radius: 20px;
+}
+
+
+::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0px !important; 
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.texto1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 34%;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+::ng-deep tbody{
+  width: 100%;
+  max-width: 824;
+} 

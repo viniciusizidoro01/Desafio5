@@ -1,0 +1,18 @@
+<header>
+<div id = "conteiner">
+    <div id = "logo">
+        <img class="cabecalho-imagem" src="../../assets/imagens/img1.png">
+        <!-- router no html header para trocar as frases. -->
+        <p *ngIf="router.routerState.snapshot.url == '/home'" class="textoLogo">Conheça nossa Coletânea</p>
+        <p *ngIf="router.routerState.snapshot.url == '/usuarios'" class="textoLogo">Faça o Cadastro de usuários e edite, caso necessário <br> Pronto para cadastrar?</p>
+        <p *ngIf="router.routerState.snapshot.url == '/filmes'" class="textoLogo">Cadastre os filmes de sua preferência</p>
+        <p *ngIf="router.routerState.snapshot.url == '/genero'" class="textoLogo">Cadastre os gêneros dos filmes</p>
+    </div>
+    <nav id="links">
+        <a class= "cabecalho-menu-item" routerLink="../home">Home</a>
+        <a class= "cabecalho-menu-item" routerLink="../usuarios">Usuários</a>
+        <a class= "cabecalho-menu-item" routerLink="../filmes">Filmes</a>
+        <a class= "cabecalho-menu-item" routerLink="../genero">Gênero</a>
+    </nav>
+</div>
+</header>

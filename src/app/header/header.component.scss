@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+#conteiner{
+    background: #9BD2DE;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Roboto';
+    justify-content: space-between;
+
+}
+
+.cabecalho-imagem{
+    width: 174px;
+    height: 61px;
+    padding-left: 208px;
+    padding-top: 55px;
+}
+
+.textoLogo {
+    font-size: 25px black;
+    padding-left: 209px;
+    padding-top: 24px;
+}
+
+#links {
+    display: flex;
+    gap: 44px;
+    line-height: 21.09px;
+    padding-right: 203px;
+}
+
+.cabecalho-menu-item{
+    color: #4B2142;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 400;
+}

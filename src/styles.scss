@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.flex{
+    display: flex;
+}
+main {
+    margin: 0 auto;
+}
+.conteiner {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+section{
+    margin-top: 26px;
+    gap: 28px;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.alignCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.marginTop30{
+    margin-top: 30px;
+}
+
+.alignSelfLeft{
+    align-items: left;
+}
+
+.width{
+    width: 200px;
+}

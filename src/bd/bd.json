@@ -1,0 +1,44 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "name": "input",
+      "email": "jp@email.com",
+      "telefone": "9999-9999"
+    },
+    {
+      "id": 2,
+      "name": "Terror",
+      "email": "VINICIUS@VINICIUS.COM",
+      "telefone": "986794908"
+    },
+    {
+      "id": 3,
+      "name": "VINICIUS",
+      "email": "viniciusizidoro@email.com",
+      "telefone": "21999563508"
+    }
+  ],
+  "filmes": [
+    {
+      "id": 1,
+      "filme": "AAA",
+      "genero": "Ação2"
+    },
+    {
+      "id": 2,
+      "filme": "AAAA",
+      "genero": "Ação2"
+    }
+  ],
+  "genero": [
+    {
+      "id": 2,
+      "genero": "Comédia"
+    },
+    {
+      "id": 3,
+      "genero": "Ação"
+    }
+  ]
+}

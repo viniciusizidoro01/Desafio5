@@ -18,6 +18,11 @@ import { MatButtonModule } from '@angular/material/button';
 //tables
 import { MatTableModule } from '@angular/material/table';
 import { MatFormFieldModule } from '@angular/material/form-field';
+//select
+import { MatSelectModule } from '@angular/material/select';
+//
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +43,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     BrowserAnimationsModule,
     MatButtonModule,
     MatTableModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    HttpClientModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

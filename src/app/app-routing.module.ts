@@ -11,7 +11,8 @@ const routes: Routes = [
 {path:'home',component:HomeComponent},
 {path:'usuarios',component:UsuariosComponent},
 {path:'genero',component:GeneroComponent},
-{path:'filmes',component:FilmesComponent}];
+{path:'filmes',component:FilmesComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

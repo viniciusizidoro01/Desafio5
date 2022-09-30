@@ -30,14 +30,16 @@
           </div>
     </section>
 
-        <div class="botoes" *ngFor="let filme of listaFilme" id="listaFilme">
+    <div class="botoes1">
+    <div class="botoes" *ngFor="let filme of listaFilme" id="listaFilme">
       <div id="filme1">
-        <p class="listaNomeFilme">{{filme.filme}}</p>
-        <p class="listaFilme">{{filme.genero}}</p>
-        <button class="botaoExcluir" (click)="excluirFilme(filme.id)">Excluir</button>
-        <button class="botaoEditar" (click)="editarFilme(filme)">Editar</button>
+        <p class="listaNomeFilme font1">{{filme.filme}}</p>
+        <p class="listaFilme font1">{{filme.genero}}</p>
+       <div class="botoes1"> <button class="botaoExcluir" (click)="excluirFilme(filme.id)">Excluir</button>
+      <button class="botaoEditar" (click)="editarFilme(filme)">Editar</button></div>
       </div>
     </div>
+  </div>
 </main>
 
 <app-footer></app-footer>

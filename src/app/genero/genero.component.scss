@@ -99,10 +99,6 @@ tr{
   margin-right: 20px;
 }
 
-.mat-cell, .mat-footer-cell {
-  font-size: 20px;
-}
-
 .botaoExcluir{
   width: 125px;
   height: 35px;
@@ -115,8 +111,6 @@ tr{
 #listaGenero{
   display: flex;
   justify-content: space-between;
-  width: 1150px;
-  margin-left: 25%;
   margin-top: 45px;
 }
 
@@ -126,4 +120,17 @@ tr{
   gap: 30px;
 }
 
+.font1{
+  font-size: 20px;
+  }
+
+.botoes3{
+display: flex;
+margin-top: 20px;
+}
+
+.botoes2{
+margin-left: 150px;
+margin-right: 150px;
+}
 

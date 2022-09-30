@@ -37,11 +37,11 @@
 </section>
 
 <div class="botoes" *ngFor="let usuario of listaUsuario">
-  <p>{{usuario.name}}</p>
-  <p>{{usuario.email}}</p>
-  <p>{{usuario.telefone}}</p>
-  <button class="botaoExcluir" (click)="excluirUsuario(usuario.id)">Excluir</button>
-  <button class="botaoEditar" (click)="editarUsuario(usuario)">Editar</button>
+  <div><p class="font1">{{usuario.name}}</p></div>
+  <div><p class="font1">{{usuario.email}}</p></div>
+  <div><p class="font1">{{usuario.telefone}}</p></div>
+  <div class="botoes1"><button class="botaoExcluir" (click)="excluirUsuario(usuario.id)">Excluir</button>
+  <button class="botaoEditar" (click)="editarUsuario(usuario)">Editar</button></div>
 </div>
 </main>
 

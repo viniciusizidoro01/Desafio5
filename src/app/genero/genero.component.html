@@ -25,14 +25,15 @@
           </div>
     </section>
 
-    <div class="botoes" *ngFor="let genero of listaGenero" id="listaGenero">
-          <p class="listaGenero">{{genero.genero}}</p>
+    <section class="botoes2">
+    <div class="botoes3" *ngFor="let genero of listaGenero" id="listaGenero">
+          <p class="font1">{{genero.genero}}</p>
         <div id="genero1">
           <button class="botaoExcluir" (click)="excluirGenero(genero.id)">Excluir</button>
           <button class="botaoEditar" (click)="editarGenero(genero)">Editar</button>
         </div>
     </div>
-
+  </section>
 </main>
 
 <app-footer></app-footer>
